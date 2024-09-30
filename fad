@@ -1,0 +1,248 @@
+[33mcommit 4f0820089c74d198259fb1f040d03edeac55890e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 89a968b 111fb3a
+Author: gromber05 <rbgonzalo@iesrafaelalberti.es>
+Date:   Mon Sep 30 18:07:25 2024 +0200
+
+    Merge remote-tracking branch 'upstream/main'
+
+[33mcommit 89a968b651a568b794c82bee35e6f49a4133b512[m
+Author: gromber05 <rbgonzalo@iesrafaelalberti.es>
+Date:   Mon Sep 30 17:39:09 2024 +0200
+
+    Cambios en la carpeta info
+
+[33mcommit 111fb3aa1b8467b00926638e4df5f7ff0d5a22c9[m[33m ([m[1;31mupstream/main[m[33m)[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Mon Sep 30 16:36:17 2024 +0200
+
+    Create .gitignore
+
+[33mcommit a4c025408363b5e61e6776d1a8a8095ab8f6a1f9[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Mon Sep 30 16:10:18 2024 +0200
+
+    Delete pruebas1.txt
+
+[33mcommit eeec1dc4b0c91508bfd8f969a1e1ae72a3fdd9e7[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Mon Sep 30 16:10:07 2024 +0200
+
+    Delete pruebas.txt
+
+[33mcommit 1718013ab7200e655d6cbd0b756fed692854c76c[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Mon Sep 30 16:09:49 2024 +0200
+
+    Delete OLD_README.md
+
+[33mcommit 30a51fe7a9eed281be67fe2a0836ac73d335d3b6[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Mon Sep 30 15:55:25 2024 +0200
+
+    Create pruebas1.txt
+
+[33mcommit 76d4e5feb1111dd69e16f1db5b48fc7f78f85ca0[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Mon Sep 30 14:50:58 2024 +0200
+
+    Create pruebas.txt
+
+[33mcommit 3e54fecb8d2b20e59fe0df8a20b22147747bb5dd[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Sun Sep 29 19:46:17 2024 +0200
+
+    Update p1.2e_pruebas_unitarias.md
+
+[33mcommit f9a73a8026a4386be44b018ab2939c00e49887a0[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Sun Sep 29 19:33:03 2024 +0200
+
+    Update p1.2d_construye_funciones.md
+
+[33mcommit cf0e09689dc3bc956718724208274ae17db1665e[m
+Author: gromber05 <rbgonzalo@iesrafaelalberti.es>
+Date:   Fri Sep 27 18:58:38 2024 +0200
+
+    Creación de carpeta Ejercicios1.2
+
+[33mcommit 02a63f85f8fa7a8ad6f3d5678b250a4904718834[m
+Author: gromber05 <rbgonzalo@iesrafaelalberti.es>
+Date:   Fri Sep 27 18:53:40 2024 +0200
+
+    Cambio de readme
+
+[33mcommit 308e23c780a725a902dfc617157da6a4957c93fe[m
+Author: gromber05 <rbgonzalo@iesrafaelalberti.es>
+Date:   Fri Sep 27 18:18:24 2024 +0200
+
+    Ejercicios del 1 al 26 python
+
+[33mcommit 5506b096f5c0d1a88dc888afba4dfa90c00c48cc[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Fri Sep 27 10:17:26 2024 +0200
+
+    Update README.md
+
+[33mcommit 0fcd2a42784afba93c1a0a26b86fc2a5f1f11506[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Fri Sep 27 10:16:09 2024 +0200
+
+    Create README.md
+
+[33mcommit 1a2cdda8d64dac6a4c46e1f43fd9c716d6243afa[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Fri Sep 27 09:49:39 2024 +0200
+
+    Rename README.md to OLD_README.md
+
+[33mcommit a7132ccdbdfab9b1916cd3c7a9205fd3885ff544[m
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Wed Sep 25 15:23:16 2024 +0000
+
+    add deadline
+
+[33mcommit 5b07bbbaed4d4f067d20a4b0ab66a15204d3dcd5[m
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Wed Sep 25 15:23:13 2024 +0000
+
+    Setting up GitHub Classroom Feedback
+
+[33mcommit 3e7dbffefa9c996f7821872d17090e95c9f633ce[m[33m ([m[1;31morigin/feedback[m[33m)[m
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Wed Sep 25 15:23:13 2024 +0000
+
+    GitHub Classroom Feedback
+
+[33mcommit d27297756801422fa39c0ebacd32009f72a705ef[m
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Wed Sep 25 15:04:10 2024 +0000
+
+    Initial commit
+
+[33mcommit 663c5313d731e7d075d6628b870a88138bed6ec2[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Wed Sep 25 11:27:52 2024 +0200
+
+    Update p1.2e_pruebas_unitarias.md
+
+[33mcommit 0eb91ddb0e75a90ace998d876c6b62179d59e321[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Wed Sep 25 11:19:25 2024 +0200
+
+    Update README.md
+
+[33mcommit 68cf3f28b44ac71a16c2bd4dfebcb9f2cf719d78[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Wed Sep 25 11:14:23 2024 +0200
+
+    Update and rename p1.2b_ejercicios_básicos_EXTRA.md to p1.2b_ejercicios_basicos_EXTRA.md
+
+[33mcommit 405fa65a506a9d7a598b00537e5ef477d998ed1e[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Wed Sep 25 11:11:55 2024 +0200
+
+    Create p1.2e_pruebas_unitarias.md
+
+[33mcommit ec0e4af4c19b5732b12bf1b2fc4014d43b439e29[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Wed Sep 25 10:53:41 2024 +0200
+
+    Rename p1.2d_construye_funciones.md to info/p1.2d_construye_funciones.md
+
+[33mcommit 15abe32d690b3f47be2c968b1ec465e8e8b8ba91[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Wed Sep 25 10:53:32 2024 +0200
+
+    Rename p1.2c_soluciona_estos_problemas.md to info/p1.2c_soluciona_estos_problemas.md
+
+[33mcommit 3fccda7be01676b9fa5cbea64fb680b820b1aa2a[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Wed Sep 25 10:53:21 2024 +0200
+
+    Rename p1.2b_ejercicios_básicos_EXTRA.md to info/p1.2b_ejercicios_básicos_EXTRA.md
+
+[33mcommit dd0294c05cfd5715fc4d03f11e463f017d0a0923[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Wed Sep 25 10:52:40 2024 +0200
+
+    Create p1.2d_construye_funciones.md
+
+[33mcommit 72a296d9853fe72720594f8aba76d0de49b9f7bd[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Wed Sep 25 10:47:57 2024 +0200
+
+    Update and rename p1.7_soluciona_estos_problemas.md to p1.2c_soluciona_estos_problemas.md
+
+[33mcommit f4ed80c9cc77b8e37b6d2cf26c14b94f542ede08[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Wed Sep 25 01:27:20 2024 +0200
+
+    Update README.md
+
+[33mcommit 42d0f2c7f57345d9aececcd82481aa4a9c54632c[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Wed Sep 25 01:13:40 2024 +0200
+
+    Create p1.7_soluciona_estos_problemas.md
+
+[33mcommit ec362440c799f9d3da6ae172df00cf04a780d0c4[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Wed Sep 25 00:54:04 2024 +0200
+
+    Create p1.2b_ejercicios_básicos_EXTRA.md
+
+[33mcommit b567642ee6cf2304ed8259138406007447930388[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Wed Sep 25 00:41:49 2024 +0200
+
+    Update README.md
+
+[33mcommit fbb702d1bc09951bf60937d18bf0d927cdedd88c[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Wed Sep 25 00:41:43 2024 +0200
+
+    Create readme.md
+
+[33mcommit d27f63de60f9cf67e73f2a4ee9fe5ddd6388dac0[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Tue Sep 24 23:57:12 2024 +0200
+
+    Create requirements.txt
+
+[33mcommit eb78fb05390ce4217323dec30717581ec8ee0281[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Tue Sep 24 23:56:41 2024 +0200
+
+    Create test.yml
+    
+    Pruebas automáticas detalladas con pytest
+
+[33mcommit 0fc1ba142e6ed187ec624cd3f607170ea6c776b3[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Mon Sep 23 19:07:59 2024 +0200
+
+    Create __init__.py
+
+[33mcommit 6399337ef5f38541d17a3db4e413aa95c90061a1[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Mon Sep 23 19:07:22 2024 +0200
+
+    Create __init__.py
+
+[33mcommit a2dae987b91766758d5ce7936f643c8ce5fbb102[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Mon Sep 23 17:17:25 2024 +0200
+
+    Update README.md
+
+[33mcommit a7571245fcdcd7dddfc3257ddb07120bf7ebb886[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Mon Sep 23 17:15:31 2024 +0200
+
+    Update README.md
+
+[33mcommit bb335eb8490d10cfd4cf3a7ae0fa1270bf656417[m
+Author: Diego <146941100+dcanoIESRafaelAlberti@users.noreply.github.com>
+Date:   Mon Sep 23 16:42:18 2024 +0200
+
+    Initial commit
