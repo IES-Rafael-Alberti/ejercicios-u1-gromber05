@@ -2,5 +2,6 @@
 num = int(input('Introduce un número: '))
 nombre = input('Introduce tu nombre de usuario: ')
 
+# Y hace un bucle para imprimir el nombre ese número de veces
 for i in range(0, num):
     print(nombre)
