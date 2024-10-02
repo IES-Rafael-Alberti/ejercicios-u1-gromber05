@@ -13,4 +13,4 @@ total = calculo_payasos + calculo_muñecas
 total_kilos = float(total /  1000)
 
 # Imprimimos el resultado
-print(f'El paquete que va a ser enviado tiene un peso total de {str(total)} gramos o {str(total_kilos)} kilogramos')
+print(f'El paquete que va a ser enviado tiene un peso total de {total} gramos o {total_kilos} kilogramos')

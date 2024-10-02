@@ -8,4 +8,4 @@ calculo = 5 / 9
 fahrenheit = str(celsius * calculo)
 
 # Imprimimos por pantalla esa variable
-print(celsiusstr + ' grados es igual a ' + fahrenheit + ' en Fahrenheit')
+print(celsius + ' grados es igual a ' + fahrenheit + ' en Fahrenheit')
