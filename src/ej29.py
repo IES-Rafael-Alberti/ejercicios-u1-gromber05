@@ -1,8 +1,10 @@
 
-
+# Aqui te pide la edad y el nombre del sujeto
 edad = int(input("Ingrese su edad: "))
 nombre = input("Ingrese su nombre: ")
 
+# La primera cadena de if y else lo que hace es detectar si el nombre está vacío o no
+# Luego las segundas cadenas, lo que hace es calcular el rango de edad e imprimir el resultado
 if nombre == "":
     if edad > 0 or edad < 125:
         numeros = range(edad, 125)
