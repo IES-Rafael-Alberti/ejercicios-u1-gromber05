@@ -1,17 +1,25 @@
 
-def resultado(num):
-    return f"El resultado es: {num}"
-
-def main():
-    num = int(input('Introduzca un número: '))
+def resultado(num: int):
     if num >= 0:
         num = num + 1
         num = num * num
         num = num / 2
         
-        print(resultado(num))
+        return num
     else:
+        return False
+    
+def pedirNumero():
+    num = int(input("Introduzca un número: "))
+    return num
+
+def main():
+    num = int(pedirNumero())
+    calculo = resultado(num)
+    if calculo == False:
         print("El número introducido no puede ser negativo")
+    else:
+        print(f"El resultado es: {calculo}")
 
 if __name__ == "__main__":
     main()
