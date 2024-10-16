@@ -8,5 +8,5 @@ iva = importe * 0.1
 precio_inicial = importe - iva
 
 # Imprimimos los resultados
-print('El IVA ha sido un total de: ' + str(iva))
-print('El precio sin IVA era un total de: ' + str(precio_inicial))
+print(f'El IVA ha sido un total de: {iva:.2f}')
+print(f'El precio sin IVA era un total de: {precio_inicial:.2f}')

@@ -8,6 +8,7 @@ num1 += num2
 
 # Volvemos a asignar un valor a num2
 num2 = int(input('Introduzca el tercer número: '))
+num1 += num2
 
 # Imprimimos el resultado
-print('El total de esos tres números es: ' + str(num1 + num2) )
+print(f'El total de esos tres números es: {num1:.2f}')

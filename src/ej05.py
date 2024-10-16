@@ -9,7 +9,8 @@ if iva < 1 or iva > 0:
     # Si el iva introducido es válido, calculamos el precio con iva y lo imprimimos
     iva_calculado = precio * iva
     precio_final = str(precio + iva_calculado)
-    print('El precio final es de: ' + precio_final)
+    precio_final = float(precio_final)
+    print(f'El precio final es de: {precio_final:.2f}')
 
 else:
     # Si el iva introducido no es válido, se imprimirá este resultado

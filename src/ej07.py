@@ -8,4 +8,4 @@ num3 = int(input('Introduzca el tercer número: '))
 suma = str(num1 + num2 + num3)
 
 # Imprimimos el resultado
-print('El total de esos tres números es: ' + suma)
+print(f'El total de esos tres números es: {suma:.2f}')
