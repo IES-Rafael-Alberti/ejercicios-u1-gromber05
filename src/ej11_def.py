@@ -1,5 +1,5 @@
 
-def resultado(num: int) -> int or bool:
+def resultado(num: int) -> str:
     if num >= 0:
         num = num + 1
         num = num * num
