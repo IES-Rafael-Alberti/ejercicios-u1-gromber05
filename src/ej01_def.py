@@ -1,5 +1,5 @@
 # Primero definimos la funcion del saludo
-def saludo(nom):
+def saludo(nom: str) -> str:
         return "Hola, " + nom + "."
 
 # Establecemos la funcion main que pedirá el nombre

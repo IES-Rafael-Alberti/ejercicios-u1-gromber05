@@ -1,5 +1,5 @@
 
-def resultado(num: int):
+def resultado(num: int) -> int or bool:
     if num >= 0:
         num = num + 1
         num = num * num
@@ -9,8 +9,8 @@ def resultado(num: int):
     else:
         return False
     
-def pedirNumero():
-    num = int(input("Introduzca un número: "))
+def pedirNumero() -> int:
+    num = input("Introduzca un número: ")
     return num
 
 def main():

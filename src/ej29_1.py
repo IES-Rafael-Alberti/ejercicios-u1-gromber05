@@ -12,7 +12,7 @@ def numeroaleatorio(a, b):
 Luego comprobamos si son iguales o si no, y si no son iguales, cual es el número mayor.
 """
 
-def comprobarnumero(num, num2):
+def comprobarnumero(num: int, num2: int) -> int:
     if num == num2:
         print("Error los números introducidos son iguales")
     elif num2 < num:
@@ -23,15 +23,15 @@ def comprobarnumero(num, num2):
 En esta función lo que hacemos es que nos pida un número y nos identifique si es 0, si el caso es verdadero
 Lo que nos hace la función es que nos devuelve una cadena de texto.
 """
-def pedirNumero():
-    num = int(input("Introduce el primer número: "))
-    num2 = int(input("Introduce el segundo número: "))
+def pedirNumero(num: int, num2: int) -> int:
+    num = input("Introduce el primer número: ")
+    num2 = input("Introduce el segundo número: ")
     while num == 0:
         return f"**ERROR** El número introducido no puede ser 0"
-        num = int(input("Introduzca de nuevo un número: "))
+        num = input("Introduzca de nuevo un número: ")
     while num2 == 0:
         return f"**ERROR** El número introducido no puede ser 0"
-        num2 = int(input("Introduzca de nuevo un número: "))
+        num2 = input("Introduzca de nuevo un número: ")
     return num, num2
 
 
