@@ -1,9 +1,16 @@
 import random
 
+"""
+Para calcular un número aleatorio entre dos números, lo que debemos hacer es importar la librería 'random' y hacer una función
+que calcule el número aleatorio con dicha libreria
+"""
+
 def numeroaleatorio(a, b):
     return random.randint(a, b+1)
 
-
+"""
+Luego comprobamos si son iguales o si no, y si no son iguales, cual es el número mayor.
+"""
 
 def comprobarnumero(num, num2):
     if num == num2:
@@ -12,15 +19,31 @@ def comprobarnumero(num, num2):
         return num, num2
     else:
         return num2, num
-
-def main():
+"""
+En esta función lo que hacemos es que nos pida un número y nos identifique si es 0, si el caso es verdadero
+Lo que nos hace la función es que nos devuelve una cadena de texto.
+"""
+def pedirNumero():
     num = int(input("Introduce el primer número: "))
     num2 = int(input("Introduce el segundo número: "))
+    while num == 0:
+        return f"**ERROR** El número introducido no puede ser 0"
+        num = int(input("Introduzca de nuevo un número: "))
+    while num2 == 0:
+        return f"**ERROR** El número introducido no puede ser 0"
+        num2 = int(input("Introduzca de nuevo un número: "))
+    return num, num2
 
-    num, num2 = comprobarnumero(num, num2)
+
+"""
+Y por último, en la función main imprimimos el resultado
+"""
+
+def main():
+    num, num2 = pedirNumero()
 
     c = numeroaleatorio(num, num2)
-    print(f'El número aletario entre {num} y {num2} es {c}')
+    print(f'El número aleatorio entre {num} y {num2} es {c}')
 
 
 

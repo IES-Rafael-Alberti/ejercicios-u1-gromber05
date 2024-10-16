@@ -1,5 +1,6 @@
 """
-
+En esta función a la que llamaremos comprobarPrimo, le introducimos un valor y lo que nos devuelve es un valor booleano, o lo que es lo mismo,
+si es primo nos devuelve True y si no es primo nos devueve False
 """
 def comprobarPrimo(n) -> bool:
   for i in range(2,n):
@@ -19,7 +20,8 @@ def pedirNumero():
     return num
 
 """
-
+En la función main lo que definimos es el proceso de pedir el número y comprobarlo para luego volver a tomar la variable e imprimir 
+el resultado obtenido
 """
 def main():
     num = pedirNumero()
