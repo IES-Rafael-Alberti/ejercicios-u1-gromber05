@@ -5,9 +5,9 @@ def resultado(num: int) -> str:
         num = num * num
         num = num / 2
         
-        return num
+        return f"El resultado es: {num}"
     else:
-        return False
+        return f'El número introducido no puede ser negativo'
     
 def pedirNumero() -> int:
     num = input("Introduzca un número: ")
@@ -16,10 +16,7 @@ def pedirNumero() -> int:
 def main():
     num = int(pedirNumero())
     calculo = resultado(num)
-    if calculo == False:
-        print("El número introducido no puede ser negativo")
-    else:
-        print(f"El resultado es: {calculo}")
+    print(calculo)
 
 if __name__ == "__main__":
     main()
