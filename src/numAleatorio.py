@@ -1,9 +1,15 @@
+
+"""
+En este programa lo que hacemos es calcular un numero aleatorio
+"""
 import random
 import math
 
-print(f'Bienvenido, solo tienes 5 intentos para averiguar el número, suerte')
-print(f'Intento: 0')
+print(f'Bienvenido, solo tienes 5 intentos para averiguar el número, suerte.')
+print(f'Intento: 1')
 
+contador = 0
+max_aciertos = 5
 
 def numAleatorio() -> int:
     numA = random.randint(0, 100)
@@ -17,23 +23,24 @@ def comprobarAleatorio(numA: int, numB: int) -> bool:
 
 def diferencia(numA: int, numB:int) -> int:
 
-    i = abs(numA - numB)
-    ale = ''
-    if i > 75:
-        ale = "Te congelas"
-    elif i > 50:
-        ale = "Un poquito de fresco"
-    elif i > 30:
-        ale = "Templaito"
-    elif i > 20:
-        ale = "Empieza a hacer calor"
-    elif i > 10:
-        ale = "Hace calorcillo"
-    elif i > 5:
-        ale = "TE QUEMAS"
-    elif i >= 0:
-        ale = "TE ESTÁS QUEMANDO"
-    return ale
+    diferen = abs(numA - numB)
+    pista = ''
+    
+    if diferen > 75:
+        pista = "Te congelas"
+    elif diferen > 50:
+        pista = "Un poquito de fresco"
+    elif diferen > 30:
+        pista = "Templadito"
+    elif diferen > 20:
+        pista = "Empieza a hacer calor"
+    elif diferen > 10:
+        pista = "Hace calorcillo"
+    elif diferen > 5:
+        pista = "TE QUEMAS"
+    elif diferen >= 0:
+        pista = "TE ESTÁS QUEMANDO"
+    return pista
   
 
 def posi(numA: int, numB: int) -> bool:
@@ -65,27 +72,29 @@ def final(numAdivinar: int):
 
     numUsuario = pedirNumero()
     comprobacion = comprobarAleatorio(numUsuario, numAdivinar)
-    global Configintentos
+    global contador
+    global max_aciertos
     
     if comprobacion is False:  
 
-        for contador in range(0, 10):
+        while contador < (max_aciertos - 1):
             diferen = diferencia(numUsuario, numAdivinar)
 
             pos = posi(numUsuario, numAdivinar)
             if pos == True:
-                pos2 = '>'
+                pos2 = 'está en mayor posición'
             elif pos == False:
-                pos2 = '<'
-            
-            print(f'{pos2} {diferen}')
-
+                pos2 = 'está en menor posición'
+            contador += 1
+            print(f'{diferen} y {pos2}')
+            print(f'Intento: {contador + 1}')
             final(numAdivinar)
 
         else: 
-            print('Mala suerte, te quedaste sin intentos:')
+            print('Mala suerte, te quedaste sin intentos.')
+            exit()
     else:
-        print('Felicidades!')
+        print('¡Felicidades!')
         exit()
     
 def main():
