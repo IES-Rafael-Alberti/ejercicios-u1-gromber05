@@ -1,0 +1,2 @@
+# Hacemos un input de los tres numeros y los metemos dentro del print para evitar trabajar con variables
+print('El total de esos tres números es: ' + str(float(input('Introduzca el primer número: ')) + float(input('Introduzca el segundo número: ')) + float(input('Introduzca el tercer número: '))))
