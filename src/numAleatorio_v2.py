@@ -2,8 +2,8 @@ import random
 import math
 
 contador = 0
-max_aciertos = 5
-numeros = 100
+max_aciertos = 0
+numeros = 0
 
 def numAleatorio() -> int:
     global numeros
@@ -57,13 +57,8 @@ def pedirNumero() -> int:
     else:
         return num
     
-def comprobarNum(num: str) -> int:
-    num = str(num)
-    if num.isdigit:
-        num = int(num)
+def comprobarNum(num: int) -> int:
         return num
-    else:
-        print('**ERROR** El número introducido debe ser un número')
 
 def final(numAdivinar: int):
 
@@ -119,8 +114,8 @@ def dificultad():
     var = var.title()
 
     if var == 'Facil':
-        max_aciertos = 5
-        numeros = 10
+        max_aciertos = 10
+        numeros = 100
     elif var == 'Normal':
         max_aciertos = 5
         numeros = 100
