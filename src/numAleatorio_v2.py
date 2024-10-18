@@ -7,8 +7,7 @@ numeros = 0
 
 def numAleatorio() -> int:
     global numeros
-    numA = random.randint(0, numeros)
-    return numA
+    return random.randint(0, numeros)
 
 def comprobarAleatorio(numA: int, numB: int) -> bool:
     if numA == numB:
