@@ -6,5 +6,5 @@ unidades = int(input('Dime unidades: '))
 # Te calcula el precio por unidad
 preciofinal = precio/unidades
 
-# Y te imprime el resultado
-print(f'{nombre} cuesta {preciofinal:.2f}, hay una cantidad de {unidades} y todo cuesta {precio}')
+
+print(f'{nombre} {preciofinal:09.2f} {unidades:03d} {precio:011.2f}')

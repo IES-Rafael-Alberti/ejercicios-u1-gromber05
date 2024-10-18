@@ -1,14 +1,14 @@
-# Establecemos la función cálculo
-def calculo(celsius: float, fahrenheit: float) -> float:
-    calcul = 5 / 9
+
+def fahrenheit():
+    celsius = float(input('Introduce los grados Celsius que quieras pasar a Fahrenheit: '))
+    calcul = 9 / 5
     fahrenheit = (celsius * calcul) + 32
-    return fahrenheit
+    print(f"{celsius}º C ({fahrenheit:.2f}º F)")
     
 
-# Establecemos la función principal que realizará el cálculo.
+
 def main():
-    celsius = float(input('Introduce los grados Celsius que quieras pasar a Fahrenheit: '))
-    print(f"{celsius}º Celsius es igual a {fahrenheit:.2f}º Fahrenheit")
+    fahrenheit()
 
 if __name__ == "__main__":
     main()

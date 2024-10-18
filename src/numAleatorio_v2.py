@@ -1,14 +1,13 @@
 import random
 import math
 
-print(f'Bienvenido, solo tienes 5 intentos para averiguar el número, suerte.')
-print(f'Intento: 1')
-
 contador = 0
 max_aciertos = 5
+numeros = 100
 
 def numAleatorio() -> int:
-    numA = random.randint(0, 100)
+    global numeros
+    numA = random.randint(0, numeros)
     return numA
 
 def comprobarAleatorio(numA: int, numB: int) -> bool:
@@ -48,10 +47,12 @@ def posi(numA: int, numB: int) -> bool:
 
 def pedirNumero() -> int:
 
+    global numeros
+
     num = int(input(f'Introduce un número: '))
     comprobarNum(num)
-    while num not in range(0, 101):
-        print('**ERROR** El número introducido debe estar entre 0 y 100')
+    while num not in range(0, numeros + 1):
+        print(f'**ERROR** El número introducido debe estar entre 0 y {numeros}')
         num = int(input(f'Introduce un número: '))
     else:
         return num
@@ -89,15 +90,52 @@ def final(numAdivinar: int):
         else: 
             print('Mala suerte, te quedaste sin intentos :(.')
             print(f'El número a adivinar era {numAdivinar}')
-            exit()
+            intentar()
     else:
         print('¡Felicidades! :)')
         print('El número era correcto')
-        exit()
+        intentar()
     
+def intentar():
+    print(f'¿Quieres volver a jugar?')
+    print(f'(1 = Sí, 2 = No)')
+    n = int(input(""))
+    global contador 
+
+    if n == 1:
+        contador = 0
+        main()
+    if n == 2:
+        print(f'Hasta luego')
+        exit()
+
+def dificultad():
+    print(f'¿En qué modo quieres jugar?')
+    var = input('(Facil, Normal, Dificil): ')
+
+    global max_aciertos
+    global numeros
+    
+    var = var.title()
+
+    if var == 'Facil':
+        max_aciertos = 5
+        numeros = 10
+    elif var == 'Normal':
+        max_aciertos = 5
+        numeros = 100
+    elif var == 'Dificil':
+        max_aciertos = 10
+        numeros = 1000
+    else:
+        print('No reconozco esa dificultad')
+        dificultad()
 
 def main():
-
+    global numeros
+    dificultad()
+    print(f'Bienvenido, solo tienes {max_aciertos} intentos para averiguar el número, suerte.')
+    print(f'Intento: 1')
     numAdivinar = numAleatorio()
     final(numAdivinar)
 

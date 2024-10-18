@@ -1,8 +1,8 @@
 
 # Preguntamos por todos los números
-num1 = int(input('Introduzca el primer número: '))
-num2 = int(input('Introduzca el segundo número: '))
-num3 = int(input('Introduzca el tercer número: '))
+num1 = float(input('Introduzca el primer número: '))
+num2 = float(input('Introduzca el segundo número: '))
+num3 = float(input('Introduzca el tercer número: '))
 
 # Hacemos la suma de números
 suma = str(num1 + num2 + num3)

@@ -10,11 +10,11 @@ def resultado(num: int) -> str:
         return f'El número introducido no puede ser negativo'
     
 def pedirNumero() -> int:
-    num = input("Introduzca un número: ")
+    num = int(input("Introduzca un número: "))
     return num
 
 def main():
-    num = int(pedirNumero())
+    num = pedirNumero()
     calculo = resultado(num)
     print(calculo)
 

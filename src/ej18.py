@@ -3,8 +3,8 @@
 usuario = input('Introduzca su nombre de usuario: ')
 
 # Primera frase y pone la primera en mayúscula
-indice = 0
-frase1 = usuario[:indice] + usuario[indice].upper() + usuario[indice + 1:]
+
+frase1 = usuario.title()
 
 # Segunda frase y lo pone todo en mayúsculas
 
